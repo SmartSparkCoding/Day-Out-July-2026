@@ -281,6 +281,146 @@ const attractions = [
         `
     }
 
+},
+
+{
+
+    id:"godinton",
+
+    name:"Godinton House & Gardens",
+
+    emoji:"🏡",
+
+    image:"https://godintonhouse.co.uk/site/assets/files/1370/gghg007.800x800.jpg",
+
+    baseScore:8.7,
+
+    badges:[
+
+        "Closest Option",
+
+        "Grandparent Friendly",
+
+        "Beautiful Gardens"
+
+    ],
+
+    scores:{
+
+        accessibility:8,
+
+        young:6,
+
+        teen:5,
+
+        value:9,
+
+        weather:7,
+
+        adult:10
+
+    },
+
+    short:
+
+    "A beautiful Jacobean house and gardens offering a relaxed heritage day close to home.",
+
+    details:{
+
+        travel:
+
+        `
+
+        <strong>Distance:</strong>
+
+        Approximately 10–15 minutes from Great Chart.<br><br>
+
+        Route:
+
+        Great Chart → Ashford → Godinton Lane.<br><br>
+
+        One of the easiest options because it avoids longer motorway journeys.
+
+        `,
+
+        activities:
+
+        `
+
+        <ul>
+
+        <li>Explore historic gardens</li>
+
+        <li>Visit the Jacobean house (when open)</li>
+
+        <li>Tea room</li>
+
+        <li>Seasonal events</li>
+
+        <li>Garden photography</li>
+
+        <li>Relaxed countryside atmosphere</li>
+
+        </ul>
+
+        `,
+
+        accessibility:
+
+        `
+
+        <ul>
+
+        <li>Disabled parking bays available</li>
+
+        <li>Accessible toilet near ticket office</li>
+
+        <li>Gardens accessible by wheelchair/mobility scooter</li>
+
+        <li>Benches around gardens</li>
+
+        <li>Ground floor house access possible</li>
+
+        </ul>
+
+        <br>
+
+        Note:
+
+        The upper-floor rooms are not wheelchair accessible.
+
+        `,
+
+        family:
+
+        `
+
+        <strong>8–9 year olds:</strong>
+
+        More suited to children who enjoy exploring gardens, history or nature.<br><br>
+
+        <strong>13–14 year olds:</strong>
+
+        Probably the weakest age group unless interested in photography, history or architecture.<br><br>
+
+        <strong>Adults:</strong>
+
+        Very strong — peaceful, beautiful and interesting.
+
+        `,
+
+        verdict:
+
+        `
+
+        A fantastic low-effort family day, especially because of the short travel distance.
+
+        However, it lacks the excitement factor of Chatham for teenagers.
+
+        `
+
+    }
+
 }
 
 ];
