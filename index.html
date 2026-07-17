@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kent Family Day Out Shortlist</title>
+
+<meta name="description" content="A family comparison guide for accessible days out near Great Chart, Kent.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+
+<header class="hero">
+
+<div class="hero-content">
+
+<p class="eyebrow">FAMILY DAY OUT PLANNER</p>
+
+<h1>
+Great Chart<br>
+Kent Shortlist
+</h1>
+
+<p class="subtitle">
+Three carefully selected attractions compared for
+children, adults, grandparents and wheelchair accessibility.
+</p>
+
+
+<div class="family-summary">
+
+<div>
+<strong>4</strong>
+<span>Children</span>
+</div>
+
+<div>
+<strong>4</strong>
+<span>Adults</span>
+</div>
+
+<div>
+<strong>♿</strong>
+<span>Manual Wheelchair</span>
+</div>
+
+<div>
+<strong>≈1hr</strong>
+<span>Travel Radius</span>
+</div>
+
+</div>
+
+
+</div>
+
+</header>
+
+
+
+
+<main>
+
+
+<section class="panel">
+
+<h2>
+Personalise the ranking
+</h2>
+
+<p class="section-description">
+Adjust what matters most. The rankings will update automatically.
+</p>
+
+
+<div class="sliders">
+
+
+<div class="slider">
+
+<label>
+♿ Accessibility
+<span id="accessibilityValue">10</span>/10
+</label>
+
+<input 
+type="range"
+id="accessibility"
+min="0"
+max="10"
+value="10">
+
+</div>
+
+
+
+<div class="slider">
+
+<label>
+👦 Younger children
+<span id="youngValue">8</span>/10
+</label>
+
+<input 
+type="range"
+id="young"
+min="0"
+max="10"
+value="8">
+
+</div>
+
+
+
+
+<div class="slider">
+
+<label>
+🧑 Teenagers
+<span id="teenValue">9</span>/10
+</label>
+
+<input 
+type="range"
+id="teen"
+min="0"
+max="10"
+value="9">
+
+</div>
+
+
+
+
+<div class="slider">
+
+<label>
+💷 Value for money
+<span id="valueValue">7</span>/10
+</label>
+
+<input 
+type="range"
+id="value"
+min="0"
+max="10"
+value="7">
+
+</div>
+
+
+
+
+<div class="slider">
+
+<label>
+☀️ Outdoor/weather flexibility
+<span id="weatherValue">8</span>/10
+</label>
+
+<input 
+type="range"
+id="weather"
+min="0"
+max="10"
+value="8">
+
+</div>
+
+
+
+
+<div class="slider">
+
+<label>
+👨‍👩‍👧 Adults
+<span id="adultValue">8</span>/10
+</label>
+
+<input 
+type="range"
+id="adult"
+min="0"
+max="10"
+value="8">
+
+</div>
+
+
+</div>
+
+
+
+<div class="winner-box">
+
+<p>Current best match:</p>
+
+<h3 id="winnerName">
+Historic Dockyard Chatham
+</h3>
+
+<p id="winnerReason">
+Best overall balance of accessibility, teenagers, adults and activities.
+</p>
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section>
+
+<h2>
+Current Rankings
+</h2>
+
+
+<div id="rankingContainer" class="cards">
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<!-- MODAL -->
+
+<div id="infoModal" class="modal">
+
+
+<div class="modal-content">
+
+
+<button class="close-modal">
+×
+</button>
+
+
+<div id="modalBody">
+
+</div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+<section class="panel final-section">
+
+
+<h2>
+Shortlist
+</h2>
+
+
+<p>
+These are the three locations currently being considered:
+</p>
+
+
+<div class="shortlist">
+
+
+<div class="short-item">
+🚢
+<strong>
+The Historic Dockyard Chatham
+</strong>
+</div>
+
+
+<div class="short-item">
+🚂
+<strong>
+Romney, Hythe & Dymchurch Railway
+</strong>
+</div>
+
+
+<div class="short-item">
+🌲
+<strong>
+Bedgebury National Pinetum & Forest
+</strong>
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+</main>
+
+
+
+
+
+<footer>
+
+<p>
+Created as a family decision tool • Great Chart, Kent
+</p>
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
